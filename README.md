@@ -1,15 +1,16 @@
-#Urban Heat Island Effect in Boston: Data Analysis & Modeling
+# Urban Heat Island Effect in Boston: Data Analysis & Modeling
 
-1. Introduction
-1.1 Purpose & Motivation
-As urban environments grow, they experience rising temperatures, a phenomenon known as the Urban Heat Island (UHI) effect. In cities like Boston, dense construction, minimal vegetation, and high energy consumption contribute significantly to this effect. This study aims to explore the intricate relationship between urbanization and temperature rise using advanced statistical and machine learning techniques.
+## 1. Introduction
 
-The project seeks to:
+### 1.1 Purpose & Motivation
+As urban environments expand, they experience rising temperatures, a phenomenon known as the **Urban Heat Island (UHI)** effect. In cities like Boston, dense construction, limited vegetation, and high energy consumption contribute significantly to this effect. This project aims to explore the relationship between urbanization and temperature rise using advanced statistical and machine learning techniques.
 
-Analyze the key contributors to the UHI effect in Boston.
-Uncover nonlinear relationships between land surface temperature and city features.
-Provide actionable insights for sustainable city development and climate mitigation strategies.
-1.2 Dataset
-The dataset used in this analysis originates from the Harvard Dataverse and includes records pertaining to the UHI effect in Boston. The dataset contains 24,719 records across 14 columns, and is provided in a CSV format.
+The goals of this project are:
+- To analyze key contributors to the UHI effect in Boston.
+- To reveal nonlinear relationships between land surface temperature and city features.
+- To provide actionable insights for sustainable city development and climate mitigation strategies.
 
-The dataset comprises various layers of data, including geospatial information obtained from sources such as Landsat and MassGIS. These layers were organized into a raster stack file for spatial analysis.
+### 1.2 Dataset
+The dataset used for this project originates from the **Harvard Dataverse** and contains **24,719 records across 14 columns**. It is in CSV format and includes various layers of geospatial data sourced from platforms like **Landsat** and **MassGIS**.
+
+Each data layer represents different attributes of the city, such as land surface temperature, building density, and vegetation cover, which are used to assess the UHI effect.
